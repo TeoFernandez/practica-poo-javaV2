@@ -1,16 +1,22 @@
 public class Animal {
     private String nombre;
     private int edad;
+    static int contador = 0;
 
     //Constructor
     Animal(String nombre,int edad){
         this.nombre = nombre;
         this.edad = edad;
+        contador++;
     }
 
     //Metodos
     public String hacerSonido(){
         return "Grrrr";
+    }
+
+    public static int getContador(){
+        return contador;
     }
 
 

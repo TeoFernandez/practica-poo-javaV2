@@ -9,5 +9,7 @@ public class Main {
         System.out.println(gato1.getNombre() + " tiene " + gato1.getEdad() + " años y hace: " + gato1.hacerSonido());
         System.out.println(perro1.getNombre() + " tiene " + perro1.getEdad() + " años y hace: " + perro1.hacerSonido());
 
+        System.out.println("La cantidad de animales es de: " + Animal.getContador());
+        System.out.println("La veterinaria es de: " + Veterinaria.nombre);
     }
 }
